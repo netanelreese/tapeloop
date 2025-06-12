@@ -9,9 +9,13 @@ I've drank the Rust kool-aid, I love Rockbox. What else do you need to know?
 
 #### Source Code Translation
 [ ] Bootloader for iPod
+
 [ ] Firmware source files for iPod
+
 [ ] Library Files
+
 [ ] Tools files
+
 [ ] Utils files
 
 #### Custom Work
