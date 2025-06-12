@@ -2,5 +2,25 @@
 name = "tapeloop-bootloader"
 version = "0.1.0"
 edition = "2024"
+authors = ["Nathanael G. Reese <nathanael.g.reese@gmail.com>"]
+description = "Package containing the bootloader binaries for various music players."
+repository = "https://github.com/netanelreese/tapeloop"
+license = "GPL-3"
+keywords = ["music", "bootloader"]
+categories = ["multimedia::audio"]
+autobins = false
+
+[lints.rust]
+unsafe_code = "forbid"
+
+[lints.clippy]
+enum_glob_use = "deny"
+
+[[bin]]
+name = "ipod"
+path = "src/ipod.rs"
+test = true
+doctest = true
+doc = true
 
 [dependencies]
