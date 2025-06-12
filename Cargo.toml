@@ -1,0 +1,22 @@
+[workspace]
+resolver = "2"
+members = [
+    "bootloader",
+    "firmware",
+    "lib",
+    "tools",
+    "utils",
+]
+
+[profile.dev]
+opt-level = 2
+
+[patch.crates-io]
+# A global patch crates-io block is used to avoid cyclic dependencies errors
+# If we use other crates from the TapeLoop ecosystem, they may pull redundant
+# versions of dependencies.
+tapeloop-bootloader = { path = "./bootloader" }
+tapeloop-firmware = { path = "./firmware" }
+tapeloop-lib = { path = "./lib" }
+tapeloop-tools = { path = "./tools" }
+tapeloop-utils = { path = "./utils" }
