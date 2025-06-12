@@ -8,15 +8,16 @@ I've drank the Rust kool-aid, I love Rockbox. What else do you need to know?
 ## Objectives
 
 #### Source Code Translation
-[ ] Bootloader for iPod
 
-[ ] Firmware source files for iPod
+- [ ] Bootloader for iPod
 
-[ ] Library Files
+- [ ] Firmware source files for iPod
 
-[ ] Tools files
+- [ ] Library Files
 
-[ ] Utils files
+- [ ] Tools files
+
+- [ ] Utils files
 
 #### Custom Work
 
